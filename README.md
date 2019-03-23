@@ -1,4 +1,4 @@
-# Psychic-Game
+# Psychic-Game2
 Homework #3
 
 What the project does:
@@ -8,7 +8,7 @@ Why the project is useful
 --> This project is a stepping stone in understanding how to write with javacript and jQuery.
 
 How users can get started with the project
---> The user can get started with the project by going to: https://katherinejhwang.github.io/Psychic-Game/index.html.
+--> The user can get started with the project by going to: https://katherinejhwang.github.io/Psychic-Game2/index.html.
 
 Where users can get help with your project
 --> They can contact me at katherine.j.hwang@gmail.com
