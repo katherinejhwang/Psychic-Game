@@ -1,0 +1,58 @@
+body {
+    background-color: #ffe9a2;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 100px;
+    color: #cbe275;
+}
+
+#btn {
+    border-radius: 5px;
+    padding: 5px;
+    font-style: italic;
+    background-color: #cbe275;
+    color: brown;
+    align-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+.row3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+.blah {
+    display: table;
+    margin: auto;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 5px;
+    border: 2px black solid;
+    display: table;
+    margin: auto;
+}
+
+body {
+    color: brown;
+}
+
+.row2 {
+    height: 5px;
+}
+
+.row4 {
+    text-align: center;
+}
