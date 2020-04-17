@@ -2,7 +2,7 @@
 Homework #3
 
 What the project does:
---> In "Psychic Game", the user has 5 chances to guess the computer's letter. The game works by the user inputting a letter of the alphabet, the code compares the letter against the a randomly generated letter by the computer, and if the user guesses correctly, he wins, and can tally up his wins.  If he guesses incorrectly, he has 4 more chances. If he guesses incorrectly after 4 chances, his losses increase by one, and he can start the game over again.
+--> In "Psychic Game", the user has 10 chances to guess the computer's letter. The game works by the user inputting a letter of the alphabet, the code compares the letter against the a randomly generated letter by the computer, and if the user guesses correctly, he wins, and can tally up his wins.  If he guesses incorrectly, he has 4 more chances. If he guesses incorrectly after 4 chances, his losses increase by one, and he can start the game over again.
 
 Why the project is useful
 --> This project is a stepping stone in understanding how to write with javacript and jQuery.

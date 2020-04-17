@@ -1,70 +1,64 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang='en' dir='ltr'>
 
   <head>
-    <meta charset="utf-8">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <title>Trivia Game</title>
+    <meta charset='utf-8'>
+    <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script type='text/javascript' src='./assets/javascript/game.js'></script>
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+      integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+    <link rel='stylesheet' type='text/css' href='./assets/css/style.css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Psychic Game</title>
   </head>
   
   <body>
     
-      <div class="container">
+      <div class='container'>
 
       <!-- Space between top of the page and first line of text -->
-      <div class="row"><p></p></div>
+      <div class='row'><p></p></div>
 
-      <div class="row">
-        <div class="col-md-12">
-          <div class="centerBlock">
-          <div class="row"><h1>Psychic Game</h1></div>
-          <div class="row4"><i>What letter of the alphabet is owl thinking of?  You have 5 tries!</i></div>
+      <div class='row'>
+        <div class='col-md-12'>
+          <div class='centerBlock'>
+          <div class='row'><h1>Psychic Game</h1></div>
+          <div class='row4'><i>What letter of the alphabet is owl thinking of?  You have 10 tries!</i></div>
         </div>
       </div>
       </div>
 
-      <div class="row2"><p></p></div>
+      <div class='row2'><p></p></div>
 
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-6"><img src="./assets/images/babyowl.jpg"></div>
-        <div class="col-md-4">
+      <div class='row1'>
+        <div class='col-md-1'></div>
+        <div class='col-md-6'><img src='./assets/images/owl2.gif'></div>
+        <div class='col-md-4'>
+      <div class='row1'></div>
 
-      <div class="row1"></div>
+      <div class='row3' class='centerBlock'>
+          <div id='start'><button id='btn'>Click to Start Game</button></div>
+      </div></div>
+     
+      <div class='row3' class='centerBlock'>Wins:
+        <div id='wins'></div>
+      </div>
 
+      <div class='row3' class='centerBlock'>Losses:
+        <div id='losses'></div>
+      </div>
 
-          <div class="row3">
-            <div class="centerBlock"><div id="start"><button id="btn">Click to Start Game</button></div>
-            </div>
-          </div>
+      <div class='row3'></div>
 
-          <div class="row3"><p></p></div>
-
-          <div class="row3">
-              <div class="centerBlock">Wins: <div id="wins"></div></div>
-          </div>
-
-          <div class="row3">
-              <div class="centerBlock">Losses: <div id="losses"></div></div>
-          </div>
-
-          <div class="row3"><p></p></div>
-
-          <div class="row3">
-              <div class="centerBlock">Letters Guessed<div id="ltrlog"></div><p></p></div>
-          </div>
-
-          <div class="row3">
-              <div class="centerBlock">Guesses Left<div id="guessesleft"><p></p></div></div>
-          </div>
-
-
+      <div class='row3' class='centerBlock'>Letters Guessed
+        <div id='ltrlog'></div>
+      </div>
+      
+      <div class='row3' class='centerBlock'>Guesses Left
+        <div id='guessesleft'></div>
+      </div>
+      
       </div>
 
   </body>
