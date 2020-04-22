@@ -21,10 +21,9 @@ $(document).ready(function() {
     computerLetter = alphabetArray[Math.floor(Math.random() * alphabetArray.length)]; //have to keep the variable here as opposed to outside of the function so that a new letter is generated everytime user click on btn.
     console.log(computerLetter);
     console.log(lettersGuessed);
-    // guessesLeft = 10;
-    // console.log('why five')
-    // console.log(guessesLeft);
-    // $('#guessesleft').text('' + guessesLeft);
+    guessesLeft = 10;
+    console.log(guessesLeft);
+    $('#guessesleft').text('' + guessesLeft);
     console.log(computerLetter);
     $('#ltrlog').empty();
 
@@ -40,24 +39,28 @@ $(document).ready(function() {
   // (5) When guessesleft=0, alert "You lose!".
 
       document.onkeyup = function myFxn(event) {
-      userGuess = event.key;
-      $('#ltrlog').append(userGuess + ' ');
-      guessesLeft--;
-      console.log(userGuess);
-      if (event.key === computerLetter) {
-        wins++;
-        $('#wins').text('' + wins);
-        alert('You win!');
-        alert('Click button to start new Game!')
-        } else {
-          alert('Try again!');
+        userGuess = event.key;
+        $('#ltrlog').append(userGuess + ' ');
+        guessesLeft--;
+        console.log(userGuess);
+        if (userGuess === lettersGuessed.includes(userGuess)) {
+          console.log('testtest')
+          alert('Already guessed!');
         }
-      if (guessesLeft === 0) {
-      losses++;
-      $('#losses').text('' + losses);
-      alert('You lose!');
-      alert('Click button to start new Game!')
-    }
+        if (event.key === computerLetter) {
+          wins++;
+          $('#wins').text('' + wins);
+          alert('You win!');
+          alert('Click button to start new Game!')
+          } else {
+            alert('Try again!');
+          }
+        if (guessesLeft === 0) {
+        losses++;
+        $('#losses').text('' + losses);
+        alert('You lose!');
+        alert('Click button to start new Game!')
+      }
       }
     }
     
