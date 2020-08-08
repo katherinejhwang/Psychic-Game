@@ -1,4 +1,4 @@
-# Psychic-Game2
+# Psychic-Game
 Homework #3
 
 What the project does:
